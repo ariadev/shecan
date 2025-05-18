@@ -14,8 +14,6 @@ Supports global DNS override using `systemd-resolved` as well as custom domain-b
 ## Usage
 ### Commands
 ```bash
-Copy
-Edit
 shecan start
 shecan stop
 shecan status
@@ -36,5 +34,7 @@ shecan help
 ### System-wide (recommended)
 
 ```bash
-chmod +x shecan-cli.sh
-sudo mv shecan-cli.sh /usr/local/bin/shecan
+git clone https://github.com/ariadev/shecan.git
+cd shecan
+chmod +x shecan.sh
+sudo mv shecan.sh /usr/local/bin/shecan
